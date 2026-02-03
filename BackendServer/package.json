@@ -11,15 +11,30 @@
   "license": "ISC",
   "dependencies": {
     "debug": "~2.2.0",
-    "express": "^4.17.1",
-    "jsonwebtoken": "^8.5.1",
-    "mysql2": "^2.2.1",
+    "express": "^4.22.1",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.16.3",
+    "pdf-creator-node": "^2.2.4",
     "pm2": "^2.1.6",
-    "sequelize": "^6.3.5",
-    "pdf-creator-node": "^2.2.4"
+    "sequelize": "^6.37.7"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/rewanthtammana/Damn-Vulnerable-Bank"
+  },
+  "overrides": {
+    "body-parser@<=1.20.3": "1.20.3",
+    "jws@<=3.2.3": "3.2.3",
+    "qs@<=6.14.1": "6.14.1",
+    "validator@<=13.15.26": "13.15.26",
+    "dottie@<=2.0.4": "2.0.4",
+    "moment@<=2.29.4": "2.29.4",
+    "lodash@<=4.17.23": "4.17.23",
+    "moment-timezone@<=0.5.35": "0.5.35",
+    "send@<=0.19.0": "0.19.0",
+    "serve-static@<=1.16.0": "1.16.0",
+    "path-to-regexp@<=0.1.12": "0.1.12",
+    "semver@<=7.5.2": "7.5.2",
+    "cookie@<=0.7.0": "0.7.0"
   }
 }
